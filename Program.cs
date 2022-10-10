@@ -9,21 +9,6 @@ class Names
         }
     }
 
-<<<<<<< HEAD
-    //One of the examples of Data Structure and Algorithm
-    static int findSums(int sum){
-        for(int i = 1; i <= 10; i++){
-            sum += i;
-        }
-        return sum;
-    }
-
-    // Arrays
-    String[] names = {"Jimson", "Paul", "Serafin"};
-
-    static void Main (String[] args){
-        // Names name = new Names();
-=======
     void Surname(string x){
         Console.Write("This is the Users surname:\t");
         Console.ForegroundColor = ConsoleColor.Yellow;
@@ -45,12 +30,33 @@ class Names
         Console.ResetColor();
     }
 
+    void guessGame(int c, int d, int e){
+        while(c != d){
+            Console.WriteLine("Guess the number from 1 to {0}", e);
+            string num1 = Console.ReadLine();
+            c = Int32.Parse(num1);
+
+            if(c > d){
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine("Incorrect! Number too high, please try again!");
+                Console.ResetColor();
+            }else if (c < d){
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine("Incorrect! Number too low, please try again!");
+                Console.ResetColor();
+            }
+        }
+
+        Console.ForegroundColor = ConsoleColor.Green;
+        Console.WriteLine("Yay! You've guessed the number {0}", d);
+        Console.ResetColor();
+    }
+
     String[] names = {"Jimson", "Paul", "Serafin"};
 
     static void Main (String[] args){
         Names name = new Names();
         Random rand = new Random();
->>>>>>> 7b7997d61cd6b8881828fa85261692d28e378846
         
         // for(int i = 0; i < name.names.Length; i ++){
         //     Console.WriteLine(name.names[i]);
@@ -59,19 +65,6 @@ class Names
 
         // Console.WriteLine("Hello! What's your name? ");
         // string s = Console.ReadLine();
-<<<<<<< HEAD
-
-        // Console.WriteLine("Hello!\t"+ s);
-        // Console.WriteLine(findSums(0));
-
-        bool t = false;
-
-        if(t != true){
-            Console.WriteLine("False");
-        }else{
-            Console.WriteLine("True");
-        }
-=======
         // Console.WriteLine("Hello!\t"+ s);
         // Console.ReadKey(); 
 
@@ -106,24 +99,7 @@ class Names
         int range = rand.Next(1, maxNum);
         int guessAns = 0;
 
-        while(guessAns != range){
-            Console.Write("Guess the number from 1 to {0}:\t", maxNum);
-            string num1 = Console.ReadLine();
-            guessAns = Int32.Parse(num1);
+        name.guessGame(guessAns, range, maxNum);
 
-            if(guessAns > range){
-                Console.ForegroundColor = ConsoleColor.Red;
-                Console.WriteLine("Incorrect! Number too high, please try again!");
-                Console.ResetColor();
-            }else if(guessAns < range){
-                Console.ForegroundColor = ConsoleColor.Red;
-                Console.WriteLine("Incorrect! Number too low, please try agin!");
-                Console.ResetColor();
-            }
-        }
-        Console.ForegroundColor = ConsoleColor.Green;
-        Console.WriteLine("Yay! you got it right {0}", range);
-        Console.ResetColor();
->>>>>>> 7b7997d61cd6b8881828fa85261692d28e378846
     }
 }
