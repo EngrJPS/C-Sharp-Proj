@@ -30,3 +30,4 @@
 *.exe
 *.out
 *.app
+*.bin\Debug\net6.0
