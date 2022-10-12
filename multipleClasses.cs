@@ -8,19 +8,16 @@ class SampleColor{
 
 
 public static class sampleClass{
-    public static int favNum(string? n){
-        int num = 0;
+    public static string favNum(string? n){
+        string num = " ";
 
         while(string.IsNullOrWhiteSpace(n)){
             Console.ForegroundColor = ConsoleColor.Red;
-            Console.WriteLine("Please enter your favorite number:\t");
+            Console.Write("Please enter your favorite number:\t");
             Console.ResetColor();
-            n = Console.ReadLine() ?? "0";
-            
-            if(!string.IsNullOrWhiteSpace(n)){
-                num = Int32.Parse(n ?? "0");
-            }
+            n = Console.ReadLine();
         }
+             
         return num;
     }
 }

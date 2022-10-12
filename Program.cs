@@ -101,9 +101,22 @@ namespace Program
             Console.WriteLine("Enter range to guess:\t");
             Console.ForegroundColor = ConsoleColor.Yellow;
             string? num = Console.ReadLine() ?? "0";
-            int maxNum = Int32.Parse(num);
+            int maxNum = 0;
             Console.ResetColor();
+            
+            while(!int.TryParse(num, out maxNum)){
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.Write("Make sure that you enter an integer type:\t");
+                Console.ResetColor();
 
+                num = Console.ReadLine();
+
+                if(int.TryParse(num, out maxNum)){
+                    maxNum = Int32.Parse(num);
+                    Console.WriteLine("Please enter any key to continue...");
+                    Console.ReadLine();
+                }
+            }
             int range = rand.Next(1, maxNum);
             int guessAns = 0;
 
@@ -112,11 +125,23 @@ namespace Program
             Console.Write("Pick any color:\t");
             string? color = Console.ReadLine();
             sple.colorSomething(color);
-
             Console.Write("Enter your favorite number:\t");
-            int? n = sampleClass.favNum(Console.ReadLine() ?? " ");
-            Console.WriteLine("Your favorite number is: {0}", n);
+            string? n = sampleClass.favNum(Console.ReadLine() ?? " ");
+            int someThing;
 
+            while(!int.TryParse(n, out someThing)){
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.Write("Please enter an integer data type:\t");
+                Console.ResetColor();
+                n = Console.ReadLine();
+                if(int.TryParse(n, out someThing)){
+                    Console.ForegroundColor = ConsoleColor.Green;
+                    someThing = Int32.Parse(n ?? "");
+                    Console.ResetColor();
+                }
+            }
+
+            Console.WriteLine("Your favorite number is: {0}", someThing);
         }
     }
 }
