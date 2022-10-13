@@ -62,9 +62,10 @@ namespace Program
 
                 if(life == 3){
                     Console.ForegroundColor = ConsoleColor.Red;
-                    Console.WriteLine("Try again...");
+                    Console.WriteLine("Try again...\nPress any key to continue...");
                     life = 0;
                     Console.ResetColor();
+                    Console.ReadKey();
                 }
             }
             Console.ForegroundColor = ConsoleColor.Green;
@@ -139,19 +140,10 @@ namespace Program
             string? color = Console.ReadLine();
             sple.colorSomething(color);
             Console.Write("Enter your favorite number:\t");
-            string? n = sampleClass.favNum(Console.ReadLine() ?? " ");
-            int someThing = 0;
+            int? n = sampleClass.favNum(Console.ReadLine() ?? " ");
 
-            while(!int.TryParse(n, out someThing)){
-                Console.ForegroundColor = ConsoleColor.Red;
-                Console.Write("Make sure to enter an integer data type:\t");
-                Console.ResetColor();
-                n = Console.ReadLine();
-            }
-            
-            someThing = Int32.Parse(n);
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine("Your favorite number is: {0}\t", someThing);
+            Console.WriteLine($"Your favorite number is: {n}");
             Console.ResetColor();
         }
     }

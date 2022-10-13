@@ -8,8 +8,8 @@ class SampleColor{
 
 
 public static class sampleClass{
-    public static string favNum(string? n){
-        string num = " ";
+    public static int favNum(string? n){
+        int num = 0;
 
         while(string.IsNullOrWhiteSpace(n)){
             Console.ForegroundColor = ConsoleColor.Red;
@@ -17,6 +17,20 @@ public static class sampleClass{
             Console.ResetColor();
             n = Console.ReadLine();
         }
+        while(!int.TryParse(n, out num)){
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.Write("Please enter an integer data type:\t");
+            Console.ResetColor();
+            n = Console.ReadLine();
+            if(string.IsNullOrWhiteSpace(n)){
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.Write("Please enter your favorite number:\t");
+                Console.ResetColor();
+                n = Console.ReadLine();
+            }
+        }
+
+        num = Int32.Parse(n);
              
         return num;
     }
