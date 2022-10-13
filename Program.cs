@@ -38,22 +38,35 @@ namespace Program
         }
 
         void guessGame(int c, int d, int e){
+            int life = 0;
+            Console.WriteLine("You have only three attempts to guess the number...\n"+"Enter any key to continue...");
+            Console.ReadKey();
             while(c != d){
-                Console.WriteLine("Guess the number from 1 to {0}", e);
+                Console.Write($"Guess the number from 1 to {e}:\t");
                 string? num1 = Console.ReadLine() ?? "0";
-                c = Int32.Parse(num1);
-
+                while(!int.TryParse(num1, out c)){
+                    Console.Write("Please enter an integer data type:\t");
+                    num1 = Console.ReadLine() ?? "0";
+                }
                 if(c > d){
                     Console.ForegroundColor = ConsoleColor.Red;
                     Console.WriteLine($"{DateTime.Now}: Incorrect! Number too high, please try again!");
                     Console.ResetColor();
+                    life++;
                 }else if (c < d){
                     Console.ForegroundColor = ConsoleColor.Red;
-                    Console.WriteLine($"{DateTime.Now}:Incorrect! Number too low, please try again!");
+                    Console.WriteLine($"{DateTime.Now}: Incorrect! Number too low, please try again!");
+                    Console.ResetColor();
+                    life++;
+                }
+
+                if(life == 3){
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.WriteLine("Try again...");
+                    life = 0;
                     Console.ResetColor();
                 }
             }
-
             Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine($"{DateTime.Now}: " + "Yay! You've guessed the number {0}", d);
             Console.ResetColor();
@@ -127,21 +140,19 @@ namespace Program
             sple.colorSomething(color);
             Console.Write("Enter your favorite number:\t");
             string? n = sampleClass.favNum(Console.ReadLine() ?? " ");
-            int someThing;
+            int someThing = 0;
 
             while(!int.TryParse(n, out someThing)){
                 Console.ForegroundColor = ConsoleColor.Red;
-                Console.Write("Please enter an integer data type:\t");
+                Console.Write("Make sure to enter an integer data type:\t");
                 Console.ResetColor();
                 n = Console.ReadLine();
-                if(int.TryParse(n, out someThing)){
-                    Console.ForegroundColor = ConsoleColor.Green;
-                    someThing = Int32.Parse(n ?? "");
-                    Console.ResetColor();
-                }
             }
-
-            Console.WriteLine("Your favorite number is: {0}", someThing);
+            
+            someThing = Int32.Parse(n);
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine("Your favorite number is: {0}\t", someThing);
+            Console.ResetColor();
         }
     }
 }
