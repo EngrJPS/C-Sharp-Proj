@@ -107,15 +107,15 @@ namespace activity1{
             userInAns = Convert.ToInt32(userStAns);
             
             while(userInAns != guessAns){
-                if(userInAns > guessAns){
+                if(userInAns < guessAns){
                     Console.Beep();
                     Console.ForegroundColor = ConsoleColor.Red;
-                    Console.Write("Err! Number is too high, please try again\t");
+                    Console.Write("Err! Number is too low, please try again\t");
                     Console.ResetColor();
-                }else if(userInAns < guessAns){
+                }else if(userInAns > guessAns){
                     Console.Beep();
                     Console.ForegroundColor = ConsoleColor.Red;
-                    Console.Write("Err! Number is too low, please try again:\t");
+                    Console.Write("Err! Number is too high, please try again:\t");
                     Console.ResetColor();
                 }
                 userInAns = Convert.ToInt32(Console.ReadLine());
