@@ -43,29 +43,19 @@ namespace activity2{
 
             Console.Write("Do you want to Continue (Y/N):\t");
             string decision = Console.ReadLine() ?? "0";
+            decision = stringUpper(decision);
+
             bool start = true;
-
-            if(string.Equals(decision, "y", StringComparison.OrdinalIgnoreCase)){
-                decision = decision.ToUpper();
-            }else if(string.Equals(decision, "n", StringComparison.OrdinalIgnoreCase)){
-                decision = decision.ToUpper();
-            }
-
             while(start){
                 switch(decision){
                     case "Y":
                         Console.Write("Please enter a number for the weight of the array:\t");
                         data = Convert.ToInt32(Console.ReadLine() ?? "0");
-
                         arrNames(data);
+
                         Console.Write("Do you want to Continue (Y/N):\t");
                         decision = Console.ReadLine() ?? "0";
-
-                        if(string.Equals(decision, "y", StringComparison.OrdinalIgnoreCase)){
-                            decision = decision.ToUpper();
-                        }else if(string.Equals(decision, "n", StringComparison.OrdinalIgnoreCase)){
-                            decision = decision.ToUpper();
-                        }
+                        decision = stringUpper(decision);
                         
                         break;
                     case "N":
@@ -112,6 +102,15 @@ namespace activity2{
             }
 
             Console.WriteLine();
+        }
+
+        public static string stringUpper(string x){
+            if(string.Equals(x, "y", StringComparison.OrdinalIgnoreCase)){
+                x = x.ToUpper();
+            }else if(string.Equals(x, "n", StringComparison.OrdinalIgnoreCase)){
+                x = x.ToUpper();
+            }
+            return x;
         }
     }
 }
