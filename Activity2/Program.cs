@@ -40,6 +40,40 @@ namespace activity2{
             int data = Convert.ToInt32(Console.ReadLine() ?? "0");
 
             arrNames(data);
+
+            Console.Write("Do you want to Continue (Y/N):\t");
+            string decision = Console.ReadLine() ?? "0";
+            bool start = true;
+
+            if(string.Equals(decision, "y", StringComparison.OrdinalIgnoreCase)){
+                decision = decision.ToUpper();
+            }else if(string.Equals(decision, "n", StringComparison.OrdinalIgnoreCase)){
+                decision = decision.ToUpper();
+            }
+
+            while(start){
+                switch(decision){
+                    case "Y":
+                        Console.Write("Please enter a number for the weight of the array:\t");
+                        data = Convert.ToInt32(Console.ReadLine() ?? "0");
+
+                        arrNames(data);
+                        Console.Write("Do you want to Continue (Y/N):\t");
+                        decision = Console.ReadLine() ?? "0";
+
+                        if(string.Equals(decision, "y", StringComparison.OrdinalIgnoreCase)){
+                            decision = decision.ToUpper();
+                        }else if(string.Equals(decision, "n", StringComparison.OrdinalIgnoreCase)){
+                            decision = decision.ToUpper();
+                        }
+                        
+                        break;
+                    case "N":
+                        start = false;
+                        break;
+                    }
+                }
+            Console.WriteLine("The program is complete!");
         }
 
         public static void arrNames(int data){
@@ -76,6 +110,8 @@ namespace activity2{
             foreach(string somethings in something){
                 Console.Write(somethings + " ");
             }
+
+            Console.WriteLine();
         }
     }
 }
