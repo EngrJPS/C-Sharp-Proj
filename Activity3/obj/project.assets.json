@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jserafin2\\Projects\\C#\\Lucian's Date\\Lucian's Date.csproj",
+      "projectUniqueName": "C:\\Users\\jserafin2\\Projects\\C#\\Activity3\\Lucian's Date.csproj",
       "projectName": "Lucian's Date",
-      "projectPath": "C:\\Users\\jserafin2\\Projects\\C#\\Lucian's Date\\Lucian's Date.csproj",
+      "projectPath": "C:\\Users\\jserafin2\\Projects\\C#\\Activity3\\Lucian's Date.csproj",
       "packagesPath": "C:\\Users\\jserafin2\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jserafin2\\Projects\\C#\\Lucian's Date\\obj\\",
+      "outputPath": "C:\\Users\\jserafin2\\Projects\\C#\\Activity3\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\jserafin2\\AppData\\Roaming\\NuGet\\NuGet.Config"
