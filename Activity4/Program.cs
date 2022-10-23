@@ -7,6 +7,7 @@ namespace birdWatcher{
             int[] birdsPerDay = {2, 5, 0, 1, 4, 7};
             var bird = new birdCounter(birdsPerDay);
             Console.WriteLine(bird.Today());
+            Console.WriteLine(bird.IncrementTodaysCount());
         }
     }
 
@@ -31,7 +32,8 @@ namespace birdWatcher{
 
         public int IncrementTodaysCount(){
             if(birdsPerDay != null && birdsPerDay.Length > 0){
-                return birdsPerDay[birdsPerDay.Length - 1]++;
+                birdsPerDay[birdsPerDay.Length - 1]++;
+                return birdsPerDay[birdsPerDay.Length - 1];
             }
             return 0;
         }
