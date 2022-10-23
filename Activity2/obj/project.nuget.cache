@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "QCEC303Ds0MmTI/1HBm+0yZIDoB9KmLCWF3/Pd6IR+uVtOZL2kTMB4MwkVkv8hdEPRoBSrs5OGa5nCLDvf7gew==",
+=======
+  "dgSpecHash": "6flzgj0DsHWQ+BXBK/qivKVSyXnzsX4HwjLDL2TxYUi6eo7G6nF3PmrQCjr49rTrE9GOweCZH/NslEf2kRg8LQ==",
+>>>>>>> 1b8dd15ada6d9256ca206d6e85a282e2bbcdea70
   "success": true,
   "projectFilePath": "C:\\Users\\Ismael\\my_projects\\C#-Code\\C-Sharp-Proj\\Activity2\\Activity2.csproj",
   "expectedPackageFiles": [],

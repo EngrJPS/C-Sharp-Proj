@@ -1,0 +1,30 @@
+C:\Users\jserafin2\Projects\C#\Lucian's Date\obj\Debug\net6.0\Lucian's Date.csproj.AssemblyReference.cache
+C:\Users\jserafin2\Projects\C#\Lucian's Date\obj\Debug\net6.0\Lucian's Date.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jserafin2\Projects\C#\Lucian's Date\obj\Debug\net6.0\Lucian's Date.AssemblyInfoInputs.cache
+C:\Users\jserafin2\Projects\C#\Lucian's Date\obj\Debug\net6.0\Lucian's Date.AssemblyInfo.cs
+C:\Users\jserafin2\Projects\C#\Lucian's Date\obj\Debug\net6.0\Lucian's Date.csproj.CoreCompileInputs.cache
+C:\Users\jserafin2\Projects\C#\Lucian's Date\bin\Debug\net6.0\Lucian's Date.exe
+C:\Users\jserafin2\Projects\C#\Lucian's Date\bin\Debug\net6.0\Lucian's Date.deps.json
+C:\Users\jserafin2\Projects\C#\Lucian's Date\bin\Debug\net6.0\Lucian's Date.runtimeconfig.json
+C:\Users\jserafin2\Projects\C#\Lucian's Date\bin\Debug\net6.0\Lucian's Date.dll
+C:\Users\jserafin2\Projects\C#\Lucian's Date\bin\Debug\net6.0\Lucian's Date.pdb
+C:\Users\jserafin2\Projects\C#\Lucian's Date\obj\Debug\net6.0\Lucian's Date.dll
+C:\Users\jserafin2\Projects\C#\Lucian's Date\obj\Debug\net6.0\refint\Lucian's Date.dll
+C:\Users\jserafin2\Projects\C#\Lucian's Date\obj\Debug\net6.0\Lucian's Date.pdb
+C:\Users\jserafin2\Projects\C#\Lucian's Date\obj\Debug\net6.0\Lucian's Date.genruntimeconfig.cache
+C:\Users\jserafin2\Projects\C#\Lucian's Date\obj\Debug\net6.0\ref\Lucian's Date.dll
+C:\Users\jserafin2\Projects\C#\Activity3\bin\Debug\net6.0\Lucian's Date.exe
+C:\Users\jserafin2\Projects\C#\Activity3\bin\Debug\net6.0\Lucian's Date.deps.json
+C:\Users\jserafin2\Projects\C#\Activity3\bin\Debug\net6.0\Lucian's Date.runtimeconfig.json
+C:\Users\jserafin2\Projects\C#\Activity3\bin\Debug\net6.0\Lucian's Date.dll
+C:\Users\jserafin2\Projects\C#\Activity3\bin\Debug\net6.0\Lucian's Date.pdb
+C:\Users\jserafin2\Projects\C#\Activity3\obj\Debug\net6.0\Lucian's Date.csproj.AssemblyReference.cache
+C:\Users\jserafin2\Projects\C#\Activity3\obj\Debug\net6.0\Lucian's Date.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jserafin2\Projects\C#\Activity3\obj\Debug\net6.0\Lucian's Date.AssemblyInfoInputs.cache
+C:\Users\jserafin2\Projects\C#\Activity3\obj\Debug\net6.0\Lucian's Date.AssemblyInfo.cs
+C:\Users\jserafin2\Projects\C#\Activity3\obj\Debug\net6.0\Lucian's Date.csproj.CoreCompileInputs.cache
+C:\Users\jserafin2\Projects\C#\Activity3\obj\Debug\net6.0\Lucian's Date.dll
+C:\Users\jserafin2\Projects\C#\Activity3\obj\Debug\net6.0\refint\Lucian's Date.dll
+C:\Users\jserafin2\Projects\C#\Activity3\obj\Debug\net6.0\Lucian's Date.pdb
+C:\Users\jserafin2\Projects\C#\Activity3\obj\Debug\net6.0\Lucian's Date.genruntimeconfig.cache
+C:\Users\jserafin2\Projects\C#\Activity3\obj\Debug\net6.0\ref\Lucian's Date.dll

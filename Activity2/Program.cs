@@ -9,6 +9,8 @@ namespace activity2{
     class Activity2{
         public static void Main(string[] args){
 
+            carModel car = new carModel();
+
             int result = 0;
 
             Console.Title = "Activity2";
@@ -64,6 +66,18 @@ namespace activity2{
                     }
                 }
             Console.WriteLine("The program is complete!");
+
+            Console.Write("What is the car model:\t");
+            car.model = Console.ReadLine();
+
+            Console.Write("What is the car maxSpeed:\t");
+            car.maxSpeed = Convert.ToInt32(Console.ReadLine() ?? "0");
+
+            if(car.isCar == true){
+                Console.Write($"The car is {car.model} and its max speed is {car.maxSpeed}, the car is {car.isCar}");
+            }else{
+                Console.Write($"The car is a {car.isCar}");
+            }
         }
 
         public static void arrNames(int data){
