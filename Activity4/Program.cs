@@ -8,11 +8,12 @@ namespace birdWatcher{
             var bird = new birdCounter(birdsPerDay);
             Console.WriteLine(bird.Today());
             Console.WriteLine(bird.IncrementTodaysCount());
+            Console.WriteLine(birdCounter.LastWeek());
         }
     }
 
     class birdCounter{
-        private int[]? birdsPerDay;
+        private int[] birdsPerDay;
 
         public birdCounter(int[] someArray){
             this.birdsPerDay = someArray;
