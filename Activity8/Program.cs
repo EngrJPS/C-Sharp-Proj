@@ -7,7 +7,7 @@ namespace Activity8{
             string name = "my   ID";
             Identifier.Clean(name);
             Identifier.Clean("my\0ID");
-            Identifier.Clean("a-ḃc");
+            Identifier.Clean("a-bc");
         }
     }
 
@@ -15,24 +15,22 @@ namespace Activity8{
         
         public static void Clean(string notClean){
             StringBuilder sb = new StringBuilder(notClean, notClean.Length);
-            foreach(char character in notClean){
-                if(character == ' '){
-                    sb.Replace(' ','_');
-                }else{
-                    if(char.IsControl(character)){
-                        sb.Append("CTRL");
-                        continue;
-                    }
-                    if(character == '-'){
-                        if(character == 'ḃ'){
-                            sb.Append('Ḃ');
-                        }
-                    }
-
+            foreach(var character in notClean){
+                switch(character){
+                    case ' ':
+                    sb.Replace(' ', '_');
+                    continue;
+                    case '\0':
+                    sb.Append("CTRL");
+                    continue;
+                    case '-':
+                    sb.Replace("-","");
+                    continue;
                 }
-
-                if(char.IsControl(character)){
-                    
+                if(character == 'b'){
+                    sb.Append('B');
+                }else{
+                    sb.Append(char.ToUpperInvariant(character));
                 }
             }
             Console.WriteLine(sb.ToString());
