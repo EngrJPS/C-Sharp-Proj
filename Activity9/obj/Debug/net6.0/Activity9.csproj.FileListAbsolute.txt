@@ -1,0 +1,15 @@
+C:\Users\jserafin2\Projects\C#\Activity9\bin\Debug\net6.0\Activity9.exe
+C:\Users\jserafin2\Projects\C#\Activity9\bin\Debug\net6.0\Activity9.deps.json
+C:\Users\jserafin2\Projects\C#\Activity9\bin\Debug\net6.0\Activity9.runtimeconfig.json
+C:\Users\jserafin2\Projects\C#\Activity9\bin\Debug\net6.0\Activity9.dll
+C:\Users\jserafin2\Projects\C#\Activity9\bin\Debug\net6.0\Activity9.pdb
+C:\Users\jserafin2\Projects\C#\Activity9\obj\Debug\net6.0\Activity9.csproj.AssemblyReference.cache
+C:\Users\jserafin2\Projects\C#\Activity9\obj\Debug\net6.0\Activity9.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jserafin2\Projects\C#\Activity9\obj\Debug\net6.0\Activity9.AssemblyInfoInputs.cache
+C:\Users\jserafin2\Projects\C#\Activity9\obj\Debug\net6.0\Activity9.AssemblyInfo.cs
+C:\Users\jserafin2\Projects\C#\Activity9\obj\Debug\net6.0\Activity9.csproj.CoreCompileInputs.cache
+C:\Users\jserafin2\Projects\C#\Activity9\obj\Debug\net6.0\Activity9.dll
+C:\Users\jserafin2\Projects\C#\Activity9\obj\Debug\net6.0\refint\Activity9.dll
+C:\Users\jserafin2\Projects\C#\Activity9\obj\Debug\net6.0\Activity9.pdb
+C:\Users\jserafin2\Projects\C#\Activity9\obj\Debug\net6.0\Activity9.genruntimeconfig.cache
+C:\Users\jserafin2\Projects\C#\Activity9\obj\Debug\net6.0\ref\Activity9.dll
