@@ -5,15 +5,19 @@ namespace Activity11{
             public static void Main(String[] args){
                 var log = "[INFO]: File Deleted.";
                 var errLog = "[ERROR]: Missing ; on line 20.";
+                
                 Console.ForegroundColor = ConsoleColor.Green;
                 Console.WriteLine(log.SubstringAfter(": "));
                 Console.ResetColor();
+
                 Console.ForegroundColor = ConsoleColor.Cyan;
                 Console.WriteLine(log.SubstringBetween("[", "]"));
                 Console.ResetColor();
+
                 Console.ForegroundColor = ConsoleColor.Yellow;
                 Console.WriteLine(errLog.Message());
                 Console.ResetColor();
+
                 Console.ForegroundColor = ConsoleColor.DarkRed;
                 Console.WriteLine(errLog.LogLevel());
                 Console.ResetColor();
