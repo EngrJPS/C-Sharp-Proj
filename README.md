@@ -1,4 +1,5 @@
 # This is all my answers for the EXERCISM exercise except Activity1 & 2
+## All questions is not mine, reference: https://exercism.org/tracks/csharp/exercises
 
 ### Activity1
 - This is my own activity
@@ -38,3 +39,29 @@
         4. Check if there was a day with no visiting birds
         5. Calculate the number of visiting birds for the first number of days
         6. Calculate the number of busy days
+
+### Activity 6
+- Secure Munchester United
+ - Our football club football-match-reports is soaring in the leagues, and you have been invited to do some more work, this time on the security pass printing system.
+ - All data passed to the security pass maker has been validated and is guaranteed to be non-null:
+    1. Get display name for a member of the support team as long as they are staff members
+    2. Customize the display name for the security team
+    3. Only designate principal security team members as priority personnel
+
+### Activity 7
+- Calculator Conundrum
+ - In this exercise you will be building error handling for a simple integer calculator. To make matters simple, methods for calculating addition, multiplication and division are provided:
+    1. Implement the calculator operations
+    2. Handle illegal operations
+    3. Handle errors when dividing by zero
+
+### Activity 8
+- Squeaky Clean
+ - In this exercise you will implement a partial set of utility routines to help a developer clean up identifier names.
+ - In the 5 tasks you will gradually build up the routine Clean A valid identifier comprises zero or more letters and underscores.
+ - Note that the caller should avoid calling the routine Clean with an empty identifier since such identifiers are ineffectual:
+    1. Replace any spaces encountered with underscores
+    2. Replace control characters with the upper case string "CTRL"
+    3. Convert kebab-case to camelCase
+    4. Omit characters that are not letters
+    5. Omit Greek lower case letters
