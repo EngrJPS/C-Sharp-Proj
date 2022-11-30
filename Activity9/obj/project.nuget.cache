@@ -1,8 +1,12 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "zQMkrUBnqgrC69iDZGllcL+GM1vl0oJfNOj2n2IcXuUT+VAm8F5hEPiEosAaJESxtqP/GtmsGwXf+Aa44/2W5A==",
+=======
+  "dgSpecHash": "OT3offDWAv39XOGZguBC0vhLfZ85SL6+ui5btTBmkZEYW+O3KkJi4wjGm25UZdHAfVoXX5cKwJpqkUQYQe59Xw==",
+>>>>>>> e7be49d0425c014128da44aca6c73d2fcfa3813a
   "success": true,
-  "projectFilePath": "C:\\Users\\jserafin2\\Projects\\C#\\Activity9\\Activity9.csproj",
+  "projectFilePath": "C:\\Users\\Jhimooo\\Projects\\C-Proj\\Activity9\\Activity9.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

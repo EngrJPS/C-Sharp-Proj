@@ -8,24 +8,26 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\jserafin2\\.nuget\\packages\\": {}
+    "C:\\Users\\Jhimooo\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jserafin2\\Projects\\C#\\Activity9\\Activity9.csproj",
+      "projectUniqueName": "c:\\Users\\Jhimooo\\Projects\\C-Proj\\Activity9\\Activity9.csproj",
       "projectName": "Activity9",
-      "projectPath": "C:\\Users\\jserafin2\\Projects\\C#\\Activity9\\Activity9.csproj",
-      "packagesPath": "C:\\Users\\jserafin2\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jserafin2\\Projects\\C#\\Activity9\\obj\\",
+      "projectPath": "c:\\Users\\Jhimooo\\Projects\\C-Proj\\Activity9\\Activity9.csproj",
+      "packagesPath": "C:\\Users\\Jhimooo\\.nuget\\packages\\",
+      "outputPath": "c:\\Users\\Jhimooo\\Projects\\C-Proj\\Activity9\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\jserafin2\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Jhimooo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -59,7 +61,11 @@
             "privateAssets": "all"
           }
         },
+<<<<<<< HEAD
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.403\\RuntimeIdentifierGraph.json"
+=======
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+>>>>>>> e7be49d0425c014128da44aca6c73d2fcfa3813a
       }
     }
   }

@@ -1,0 +1,15 @@
+C:\Users\Jhimooo\Projects\C-Proj\Activity13\bin\Debug\net7.0\Activity13.exe
+C:\Users\Jhimooo\Projects\C-Proj\Activity13\bin\Debug\net7.0\Activity13.deps.json
+C:\Users\Jhimooo\Projects\C-Proj\Activity13\bin\Debug\net7.0\Activity13.runtimeconfig.json
+C:\Users\Jhimooo\Projects\C-Proj\Activity13\bin\Debug\net7.0\Activity13.dll
+C:\Users\Jhimooo\Projects\C-Proj\Activity13\bin\Debug\net7.0\Activity13.pdb
+C:\Users\Jhimooo\Projects\C-Proj\Activity13\obj\Debug\net7.0\Activity13.csproj.AssemblyReference.cache
+C:\Users\Jhimooo\Projects\C-Proj\Activity13\obj\Debug\net7.0\Activity13.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jhimooo\Projects\C-Proj\Activity13\obj\Debug\net7.0\Activity13.AssemblyInfoInputs.cache
+C:\Users\Jhimooo\Projects\C-Proj\Activity13\obj\Debug\net7.0\Activity13.AssemblyInfo.cs
+C:\Users\Jhimooo\Projects\C-Proj\Activity13\obj\Debug\net7.0\Activity13.csproj.CoreCompileInputs.cache
+C:\Users\Jhimooo\Projects\C-Proj\Activity13\obj\Debug\net7.0\Activity13.dll
+C:\Users\Jhimooo\Projects\C-Proj\Activity13\obj\Debug\net7.0\refint\Activity13.dll
+C:\Users\Jhimooo\Projects\C-Proj\Activity13\obj\Debug\net7.0\Activity13.pdb
+C:\Users\Jhimooo\Projects\C-Proj\Activity13\obj\Debug\net7.0\Activity13.genruntimeconfig.cache
+C:\Users\Jhimooo\Projects\C-Proj\Activity13\obj\Debug\net7.0\ref\Activity13.dll
