@@ -27,9 +27,12 @@ namespace Activity16{
             Create a loop for space
             */
             int n = 0;
+            int space = input;
             for(int row = 1; row <= input; row++){
                 for(int column = 1; column <= row; column++){
-                    for(int space = 0; space < input; space++){
+                    Console.Write(" ");
+                    space--;
+                    if(space >= 0){
                         Console.Write(" ");
                     }
                     n++;
@@ -37,6 +40,7 @@ namespace Activity16{
                         Console.Write(column);
                     }
                 }
+                
                 Console.WriteLine(" ");
             }
             
