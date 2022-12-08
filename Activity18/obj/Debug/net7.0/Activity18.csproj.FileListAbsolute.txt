@@ -1,0 +1,15 @@
+C:\Users\Jhimooo\Projects\C-Proj\Activity18\bin\Debug\net7.0\Activity18.exe
+C:\Users\Jhimooo\Projects\C-Proj\Activity18\bin\Debug\net7.0\Activity18.deps.json
+C:\Users\Jhimooo\Projects\C-Proj\Activity18\bin\Debug\net7.0\Activity18.runtimeconfig.json
+C:\Users\Jhimooo\Projects\C-Proj\Activity18\bin\Debug\net7.0\Activity18.dll
+C:\Users\Jhimooo\Projects\C-Proj\Activity18\bin\Debug\net7.0\Activity18.pdb
+C:\Users\Jhimooo\Projects\C-Proj\Activity18\obj\Debug\net7.0\Activity18.csproj.AssemblyReference.cache
+C:\Users\Jhimooo\Projects\C-Proj\Activity18\obj\Debug\net7.0\Activity18.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jhimooo\Projects\C-Proj\Activity18\obj\Debug\net7.0\Activity18.AssemblyInfoInputs.cache
+C:\Users\Jhimooo\Projects\C-Proj\Activity18\obj\Debug\net7.0\Activity18.AssemblyInfo.cs
+C:\Users\Jhimooo\Projects\C-Proj\Activity18\obj\Debug\net7.0\Activity18.csproj.CoreCompileInputs.cache
+C:\Users\Jhimooo\Projects\C-Proj\Activity18\obj\Debug\net7.0\Activity18.dll
+C:\Users\Jhimooo\Projects\C-Proj\Activity18\obj\Debug\net7.0\refint\Activity18.dll
+C:\Users\Jhimooo\Projects\C-Proj\Activity18\obj\Debug\net7.0\Activity18.pdb
+C:\Users\Jhimooo\Projects\C-Proj\Activity18\obj\Debug\net7.0\Activity18.genruntimeconfig.cache
+C:\Users\Jhimooo\Projects\C-Proj\Activity18\obj\Debug\net7.0\ref\Activity18.dll
