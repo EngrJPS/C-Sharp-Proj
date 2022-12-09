@@ -10,7 +10,7 @@ namespace Activity14{
             Console.Write(RotationalCipher.leftRot("\nThe quick brown fox jumps over the lazy dog", 13));
         }
         //This is the class for Rotational Cipeher named RotationalCipher
-        public static class RotationalCipher{
+        class RotationalCipher{
             //This method is called Rotational that returns a string
             //This method shifts rotational to the right
             public static string Rotational(string text, int index){

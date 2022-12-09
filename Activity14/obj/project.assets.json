@@ -8,26 +8,24 @@
     "net7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Jhimooo\\.nuget\\packages\\": {}
+    "C:\\Users\\jserafin2\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Jhimooo\\Projects\\C-Proj\\Activity14\\Activity14.csproj",
+      "projectUniqueName": "C:\\Users\\jserafin2\\Projects\\C#\\Activity14\\Activity14.csproj",
       "projectName": "Activity14",
-      "projectPath": "C:\\Users\\Jhimooo\\Projects\\C-Proj\\Activity14\\Activity14.csproj",
-      "packagesPath": "C:\\Users\\Jhimooo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Jhimooo\\Projects\\C-Proj\\Activity14\\obj\\",
+      "projectPath": "C:\\Users\\jserafin2\\Projects\\C#\\Activity14\\Activity14.csproj",
+      "packagesPath": "C:\\Users\\jserafin2\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\jserafin2\\Projects\\C#\\Activity14\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Jhimooo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\jserafin2\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
