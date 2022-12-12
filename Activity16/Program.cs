@@ -11,6 +11,29 @@ Using for loop print the following output on console.
     1
 */
 
+/*
+              #
+             ###
+            #####
+           ####### 
+          #########
+         ###########
+        #############
+       ###############
+      #################
+     ###################
+    #####################
+   #######################
+  #########################
+ ###########################
+#############################
+            ######
+            ######
+            ######
+            ######                                                   
+*/
+
+
 using System;
 namespace Activity16{
     class Activity16{
@@ -24,6 +47,8 @@ namespace Activity16{
             int n = Convert.ToInt32(Console.ReadLine()?? " ");
             act.dumbPass(l, n);
             act.magNum(Convert.ToInt32(Console.ReadLine()??" "));
+            Console.Write("Enter a number: ");
+            christmasTree(Convert.ToInt32(Console.ReadLine()??" "));
         }
 
 
@@ -101,6 +126,37 @@ namespace Activity16{
                 }
             }
             
+        }
+
+        public static void christmasTree(int input){
+            for(int row = 0; row < input; row++){
+                for(int space = 0; space < input - row; space++){
+                    Console.Write(" ");
+                }
+                for(int column = 0; column <= row; column++){
+                    Console.ForegroundColor = ConsoleColor.Green;
+                    Console.Write("*");
+                    Console.ResetColor();
+                }
+                for(int column1 = 0; column1 < row; column1++){
+                    Console.ForegroundColor = ConsoleColor.Green;
+                    Console.Write("*");
+                    Console.ResetColor();
+                }
+                Console.WriteLine();
+            }
+            for(int _base = 0; _base < 5; _base++){
+                for(int column1 = 0; column1 < input - (input/2); column1++){
+                    Console.Write(" ");
+                }
+
+                for(int column2 = 0; column2 < input; column2++){
+                    Console.ForegroundColor = ConsoleColor.Magenta;
+                    Console.Write("*");
+                    Console.ResetColor();
+                }
+                Console.WriteLine();
+            }
         }
     }
 }
